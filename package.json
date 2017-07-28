@@ -1,0 +1,59 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress  --open --env.Development=true",
+    "build": "webpack --progress --env.Development=false",
+    "init-dev-g": "npm i -g -d webpack@2.6.1 webpack-dev-server yarn cnpm",
+    "init-dev": "npm run init-dev-g && cnpm i -g node-sass@4.5.3 && npm link node-sass && yarn install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.sundot.cn/lengyx/React-Demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^2.12.0",
+    "babel-polyfill": "^6.23.0",
+    "bootstrap": "4.0.0-alpha.6",
+    "history": "^4.6.3",
+    "jquery": "^3.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-config": "^1.0.0-beta.3",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.2.0",
+    "tether": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/history": "^4.6.0",
+    "@types/jquery": "^3.2.6",
+    "@types/node": "^8.0.7",
+    "@types/react": "^15.0.34",
+    "@types/react-dom": "^15.5.1",
+    "@types/react-redux": "^4.4.45",
+    "@types/react-router": "^4.0.12",
+    "@types/react-router-config": "^1.0.2",
+    "@types/react-router-dom": "^4.0.5",
+    "@types/react-router-redux": "^5.0.3",
+    "@types/redux": "^3.6.0",
+    "awesome-typescript-loader": "^3.2.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.29.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "typescript": "^2.4.1",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "2.6.1"
+  }
+}
